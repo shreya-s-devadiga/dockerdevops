@@ -1,4 +1,4 @@
-from flask import Flask , jasonify
+from flask import Flask , jsonify
 import numpy as np
 import pandas as pd
 
