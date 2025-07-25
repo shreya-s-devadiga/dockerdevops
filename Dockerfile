@@ -5,8 +5,8 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-COPY app1.py .
+COPY app.py .
 
-CMD ["python", "app1.py"]
+CMD ["python", "app.py"]
 
 
